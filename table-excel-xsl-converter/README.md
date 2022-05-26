@@ -4,10 +4,6 @@ Light weight jQuery plugin for export table to excel file
 
 <h2>Demos</h2>
 
-<p>Website and demo here:</p>
-
-<p><a href="http://tanvirpro.com/" target="_blank">http://tanvirpro.com/all_project/jQueryTableToExcel</a></p>
-
 <h2>Get started</h2>
 
 <ul>
