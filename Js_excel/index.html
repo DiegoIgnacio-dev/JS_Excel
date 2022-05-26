@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="js/exportExcel.js"></script>
+    <script src="js/jquery-3.5.1.js"></script>
+    <script src="js/app.js"></script>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Excel-Tables</title>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <col-4></col-4>
+            <col-4>
+                <table class="table" id="tableCli">
+                    <thead>
+                        <tr>
+                            <th>ID</th>
+                            <th>Nombre</th>
+                            <th>Apellido</th>
+                            <th>Edad</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td scope="row">#1</td>
+                            <td>Diego</td>
+                            <td>Prueba</td>
+                            <td>26</td>
+                        </tr>
+                        <tr>
+                            <td scope="row">#2</td>
+                            <td>Juan</td>
+                            <td>Prueba</td>
+                            <td>25</td>
+                        </tr>
+                        <tr>
+                            <td scope="row">#3</td>
+                            <td>Carlos</td>
+                            <td>Prueba</td>
+                            <td>34</td>
+                        </tr>
+                        <tr>
+                            <td scope="row">#4</td>
+                            <td>Pedro</td>
+                            <td>Prueba</td>
+                            <td>15</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <a href="#" id="test" onClick="javascript:fnExcelReport();">download</a>
+            </col-4>
+            <col-4></col-4>
+        </div>
+    </div>
+
+
+</body>
+</html>
